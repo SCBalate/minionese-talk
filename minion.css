@@ -3,8 +3,8 @@
 #header{
     background-color: rgb(157, 255, 0);
     width:100%;
-    height:2em;
-    color:darkblue;
+    height:3em;
+    color:red;
     font-size: 1.6em;
     text-align: center;
     font-style: italic;
@@ -12,10 +12,57 @@
 .main{
     max-width: 900px;
     width:100%;
-    margin:auto
+    margin:auto;
+    /* background-color: white; */
+    z-index:5;
 }
-#txtara{
+#txtara-in{
     width: 60vw;
     padding:2em;
-    margin:50px;
+    margin-top: 5rem;
+   
+}
+#txtara-op{
+    width: 60vw;
+    padding:2em;
+    margin-top: 0rem;
+   
+}
+#btn-translate{
+    margin:auto;
+    padding: 2px 5px;
+    margin:20px;
+    color:red;
+    background-color: rgb(157, 255, 0);
+    width:5rem;
+    height:3rem;
+    border-radius: 50px;
+    border-color: white;
+    
+}
+small{
+    display: block;
+    padding:2px;
+    font-size: 1.5rem;
+    margin-top:5px;
+    margin-bottom: 0%;
+    color:red;
+}
+
+.bg-img{
+  
+    background-size: cover;
+    background-blend-mode: multiply; 
+    position: absolute;
+    top: 80;
+    left: 0;
+     height: auto;
+    width: 100vw; 
+    z-index: -3;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    
 }
